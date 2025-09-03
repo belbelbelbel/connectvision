@@ -4,7 +4,6 @@ import NavBar from '../components/NavBar'
 import HeaderComponent from '../components/HeaderComponent'
 import Image from 'next/image'
 import Footer from '../components/Footer'
-import Button from '../components/Button'
 import Start from '../components/Start'
 
 export default function page() {
@@ -38,14 +37,15 @@ export default function page() {
             {/* Mission Section */}
             <div className='max-w-7xl mx-auto md:mt-36 px-4 sm:px-6 lg:px-8 mb-16'>
                 <h1 className='text-3xl sm:text-4xl md:text-5xl font-semibold text-[#3D3D3D] text-center my-8'>Our Mission</h1>
-                
+
                 <div className='flex flex-col lg:flex-row items-center gap-8 mt-5'>
                     <div className='w-full lg:w-1/2'>
                         <Image src={'/ourmisionimg.png'} alt={'mission'} width={2000} height={1300} className='object-contain rounded-xl' />
                     </div>
                     <div className='w-full lg:w-1/2 text-base sm:text-lg'>
-                        Our mission is to ensure patients the best possible vision performance by providing the highest quality vision and eye health care possible in a comfortable, professional, and "patient friendly" environment. We will keep overall patient wellness and understanding as first priorities in everything we do. We will maintain the highest health care standards, state of the art instrumentation, and commitment to continued improvement in our profession.
+                        {`Our mission is to ensure patients the best possible vision performance by providing the highest quality vision and eye health care possible in a comfortable, professional, and "patient friendly" environment. We will keep overall patient wellness and understanding as first priorities in everything we do. We will maintain the highest health care standards, state of the art instrumentation, and commitment to continued improvement in our profession.`}
                     </div>
+
                 </div>
             </div>
 

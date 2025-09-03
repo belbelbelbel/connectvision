@@ -13,8 +13,8 @@ export default function NavBar() {
 
   const menuVariants = {
     hidden: { x: "-100%" },
-    visible: { x: 0, transition: { type: "spring", stiffness: 80, damping: 20, staggerChildren: 0.1 } },
-    exit: { x: "-100%", transition: { type: "spring", stiffness: 80, damping: 20 } }
+    visible: { x: 0, transition: { type: "spring" as const, stiffness: 80, damping: 20, staggerChildren: 0.1 } },
+    exit: { x: "-100%", transition: { type: "spring" as const, stiffness: 80, damping: 20 } }
   };
 
   const itemVariants = {
