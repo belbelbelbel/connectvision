@@ -12,7 +12,7 @@ export default function ContactLense() {
                     <div className='text-gray-600'>Contact lenses are an important part of almost any modern optometric practice.  We fit all types of contact lenses, however we specialize in advanced and difficult contact lenses such contacts for people that have been referred to us because they were unsuccessful with refractive surgery, have keratoconus, dry eyes, require bifocal contact lenses or have encountered  problems with contact lenses.</div>
                 </div>
                 <div>
-                    <Button title={'Order Contacts'} />
+                                  <button className="bg-[#3794C7] text-white font-semibold px-7 py-3 rounded-md hover:bg-opacity-60 hover:cursor-pointer">Order Contacts</button>
                 </div>
 
             </div>
