@@ -23,9 +23,9 @@ export default function Home() {
     }
   ]
   return (
-    <div>
+    <div className="mt-20">
       <NavBar />
-      <div className="relative z-30 h-[75vh] w-[90%] mx-auto">
+      <div className="relative z-30  h-[75vh] w-[90%] mx-auto">
         <div className="bg-['url('/heroimg.png')'] h-full w-full rounded-xl    mx-auto bg-cover bg-center flex flex-col justify-center items-center text-center" style={{
           backgroundImage: "url('/heroimg.png')",
           backgroundSize: 'cover',
@@ -34,14 +34,14 @@ export default function Home() {
           <div className="absolute h-full w-full rounded-xl bg-black opacity-60"></div>
         </div>
         <div className="bottom-40 left-10 absolute flex gap-7 flex-col text-white z-40 max-w-xl">
-          <div className="text-6xl leading-16 font-bold">Clear vision for the ones you love</div>
+          <div className="text-7xl leading-s16 font-bold">Clear vision for the ones you love</div>
           <div >Because every smile, every glance, and every moment matters.</div>
           <div>
             <Button />
           </div>
         </div>
       </div>
-      <div className="my-30">
+      <div className="mt-30">
         <div className="text-[#3D3D3D] text-center my-16 font-bold text-4xl">Everything you need before your appointment</div>
        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-[90%] mx-auto mb-16">
         {imgarray.map((item, index) => (

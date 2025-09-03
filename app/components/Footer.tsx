@@ -18,7 +18,7 @@ const contact = {
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t-0 border-24 border-[#3794C7] text-gray-800 py-10">
+    <footer className="bg-white mt-30 border-t-0 border-b-10 border-44 border-[#3794C7] text-gray-800 py-10">
       <div className=" w-[92%] mx-auto flex flex-col md:flex-row md:justify-between ">
 
         {/* Logo */}
