@@ -5,7 +5,7 @@ import Footer from './Footer'
 export default function VisionCare() {
     return (
         <div>
-            <div className='flex flex-col  py-12 max-w-6xl mx-auto gap-5'>
+            <div className='flex flex-col  py-12 md:max-w-6xl w-[80%]  mx-auto gap-5'>
                 <div className='text-5xl mb-3 font-semibold text-[#3D3D3D]'>Pediatric vision care</div>
                 <div className='flex gap-5 text-gray-600 flex-col'>
                     <div> As a parent, you may wonder whether your preschooler has a vision problem or when you should schedule your child's first eye exam. </div>

@@ -48,7 +48,9 @@ export default function NavBar() {
           ))}
          
         </div>
-         <Button title="Book an Appointment" />
+        <div className="hidden md:block">
+           <Button title="Book an Appointment" />
+        </div>
 
         {/* Mobile Hamburger */}
         <div className="md:hidden flex items-center">

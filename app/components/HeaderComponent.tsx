@@ -22,7 +22,7 @@ export default function HeaderComponent({ title, image, position }: HeaderProps)
           }}
         >
           <div className="absolute h-full w-full  bg-[#3D3D3D] opacity-70"></div>
-          <div className="text-6xl text-white z-40 leading-16 text-center font-bold">
+          <div className="md:text-6xl  text-3xl text-white z-40 leading-16 text-center font-bold">
             {title}
           </div>
         </div>

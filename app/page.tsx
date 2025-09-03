@@ -19,7 +19,7 @@ export default function Home() {
           <div className="absolute h-full w-full rounded-xl bg-[#3D3D3D] opacity-70"></div>
         </div>
         <div className="bottom-40 left-10 absolute flex gap-7 flex-col text-white z-40 max-w-xl">
-          <div className="text-6xl font-bold">Clear vision for the ones you love</div>
+          <div className="md:text-6xl text-4xl font-bold">Clear vision for the ones you love</div>
           <div >Because every smile, every glance, and every moment matters.</div>
           <div>
             <Button title={"Book an Appointment "} />
@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-30 mb-36">
-        <div className="text-[#3D3D3D] text-center my-16 font-bold text-4xl">Everything you need before your appointment</div>
+        <div className="text-[#3D3D3D] text-center my-16 font-bold text-3xl md:text-4xl">Everything you need before your appointment</div>
        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-[90%] mx-auto mb-16">
         {imgarray.map((item, index) => (
           <a

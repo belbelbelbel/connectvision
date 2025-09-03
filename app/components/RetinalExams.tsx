@@ -28,7 +28,7 @@ export default function RetinalExams() {
     ];
     return (
         <div className='w-full'>
-            <div className="max-w-6xl mx-auto px-4 py-12">
+            <div className="md:max-w-6xl w-[80%] mx-auto px-4 py-12">
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">Retinal exam</h1>
                 <p className="text-gray-600 mb-10">
                     The Retinal Exam is fast, painless and comfortable. Nothing touches

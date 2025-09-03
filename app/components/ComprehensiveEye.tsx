@@ -10,7 +10,7 @@ export default function ComprehensiveEye() {
     ]
     return (
         <div className=' w-full  '>
-            <div className='max-w-6xl mx-auto py-12 '>
+            <div className='md:max-w-6xl w-[80%] mx-auto py-12 '>
                 <div className='flex flex-col gap-5'>
                     <div className='text-5xl mb-1 font-semibold text-gray-700'>Routine eye exam</div>
                     <div className='text-gray-600'>A complete eye exam involves a series of tests designed to evaluate your vision and check for eye diseases. Our eye doctor may use a variety of instruments, shine bright lights directly at your eyes and request that you look through an array of lenses. Each test during an eye exam evaluates a different aspect of your vision or eye health.</div>
