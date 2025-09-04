@@ -62,9 +62,9 @@ export const Servicearray = [
     title: 'Retinal Exam',
     component: RetinalExams
   },
-  {
-    img: '/freelasik.png',
-    title: 'Free lasik co-management'
-    , component: FreeLasik
-  }
+  // {
+  //   img: '/freelasik.png',
+  //   title: 'Free lasik co-management'
+  //   , component: FreeLasik
+  // }
 ]
