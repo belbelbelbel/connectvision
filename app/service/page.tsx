@@ -11,12 +11,12 @@ export default function page() {
     return (
         <div>
             <HeaderComponent title={'Our Services'} image={'/heroimg.png'} />
-            <div className='flex flex-wrap w-[90%] mx-auto my-10 gap-10 justify-center items-center '>
+            <div className='flex flex-wrap w-[80%] md:w-[90%] mx-auto my-10 gap-10 justify-center items-center '>
                 {
                     Servicearray.map((item) => (
                         <Link key={item.title} href={`/service/${item.title}`}>
                             <div className='block rounded-lg overflow-hidden   transition-shadow duration-300'>
-                                <div className='flex flex-col justify-center h-92 text-md font-semibold w-90 bg-[#DCF3FF4D] items-center  gap-5'>
+                                <div className='flex flex-col justify-center h-80 md:h-92 text-md font-semibold md:w-90 bg-[#DCF3FF4D] items-center  gap-5'>
                                     <div className='w-full h-[75%] relative'>
                                         <Image src={item.img} alt={item.title} width={1000} height={100} className='object-cover' />
                                          

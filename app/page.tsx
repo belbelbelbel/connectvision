@@ -28,7 +28,7 @@ export default function Home() {
       </div>
       <div className="mt-30 mb-36">
         <div className="text-[#3D3D3D] text-center my-16 font-bold text-3xl md:text-4xl">Everything you need before your appointment</div>
-       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-[90%] mx-auto mb-16">
+       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-[85%] md:w-[90%] mx-auto mb-16">
         {imgarray.map((item, index) => (
           <a
             key={index}

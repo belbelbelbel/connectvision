@@ -23,9 +23,9 @@ export default function NavBar() {
   };
 
   return (
-    <div className="fixed top-0 w-full bg-white/90 backdrop-blur-md  shadow-md z-50">
+    <div className="fixed top-0 w-full bg-white/70 backdrop-blur-md  shadow-md z-50">
       {/* Navbar Container */}
-      <div className="flex justify-between items-center p-4 max-w-[92%] mx-auto   ">
+      <div className="flex justify-between items-center p-2 md:p-4 max-w-[92%] mx-auto   ">
         {/* Logo */}
         <div className="cursor-pointer" onClick={() => router.push('/')}>
           <Image src="/logo.svg" alt="Logo" width={90} height={90} />
@@ -56,7 +56,7 @@ export default function NavBar() {
         <div className="md:hidden flex items-center">
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="flex flex-col justify-between w-6 h-5 focus:outline-none"
+            className="flex flex-col justify-between w-8 h-5 focus:outline-none"
           >
             <span
               className={`block h-0.5 w-full bg-black transform transition duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`}
@@ -77,7 +77,7 @@ export default function NavBar() {
           <>
             {/* Overlay */}
             <motion.div
-              className="fixed inset-0 bg-black/40 z-40"
+              className="fixed inset-0 bg-black/40 h-[100dvh] z-40"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -86,7 +86,7 @@ export default function NavBar() {
 
             {/* Sliding Menu */}
             <motion.div
-              className="md:hidden fixed top-0 left-0 w-3/4  bg-white z-50  h-[100vh] p-6 flex flex-col justify-between shadow-lg"
+              className="md:hidden fixed top-0 left-0 w-3/4  bg-white z-50  h-[100dvh] p-6 flex flex-col justify-between shadow-lg"
               variants={menuVariants}
               initial="hidden"
               animate="visible"
